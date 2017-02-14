@@ -1,10 +1,16 @@
-header, h2, li {color:red}
+*{background-color: grey}
+header, h2, {font-family: Merriweather;
+  color: blue
+}
+
 header {text-align: Center}
 img.displayed {display: block;
   margin-left: auto;
   margin-right: auto;
 }
-hr {width: 80%;
+hr {width: 100%;
   margin-left: auto;
   margin-right: auto;
 }
+
+
