@@ -1,2 +1,10 @@
 header, h2, li {color:red}
 header {text-align: Center}
+img.displayed {display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
