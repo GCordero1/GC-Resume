@@ -1,6 +1,7 @@
 *{background-color: lightsteelblue}
-header, h2, {font-family: Merriweather;
-  color: mediumblue
+header, h2, {
+  font-family: Merriweather;
+  color: mediumblue;
 }
 
 header {text-align: Center}
