@@ -1,7 +1,10 @@
 *{background-color: lightsteelblue}
 header, h2, {
   font-family: Merriweather;
+  src: url(https://fonts.google.com/specimen/Merriweather);
   color: mediumblue;
+  font-weight: 400;
+  font-style: italic;
 }
 
 header {
