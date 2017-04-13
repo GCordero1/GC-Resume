@@ -1,79 +1,115 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href='https://fonts.googleapis.com/css?family=Merriweather|Raleway' rel='stylesheet' type='text/css'>
-<link rel="stylesheet" type="text/css" href="main.css">
-<meta name="description" content= "This is the HTML resume of Gerson Cordero">
+	<meta charset="utf-8">
 	<title>Gerson Cordero | Resume</title>
+	<meta name="description" content= "This is the HTML resume of Gerson Cordero">
+
+	<!-- Responsive viewport tag, tells small screens that it's responsive -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Normalize.css, a cross-browser reset file -->
+ 	<link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel="stylesheet">
+
+	<!-- Google Font -->
+	<link href='https://fonts.googleapis.com/css?family=Merriweather|Raleway' rel='stylesheet' type='text/css'>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="main.css">
 </head>
+
 <body>
+
+<!-- Image -->
+
 <img src="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAVgAAAAJDVjYTE4ZTRjLTJjN2EtNGM5Zi1iNzkzLWJjNDUxMTkxNmZjZQ.jpg" class="displayed" alt="Gerson">
-<header>
-	<h1>Gerson Cordero</h1>
-	<p>511 West 177 Street, Apt 4D, New York, NY, 10033</p>
-	<p><a href="mailtoGerson.Cordero@gmail.com" class='email' target="_blank">Gerson.Cordero@gmail.com</a></p>
-	<hr>
-</header>
-<main>
-<p>Sales veteran with 10 years of experience. Successful tenures in 4 different industries. I am currently transitioning career paths from Inside Sales/Territory Development into Web Development.</p>
-	<hr>
-<section>
-	<h2>Education</h2>
-	<p>Borough of Manhattan Community College, New York, NY</p>
-	<ul>
-		<li>Associates Degree in Business Administration, January 2012</li>
-	</ul>
-	<p>City College of New York, New York, NY</p>
-	<ul>
-		<li>Bachelors Degree in Business Administraion, May 2014</li>
-	</ul>
-</section>
-<section>
-	<h2>Professional Experiences</h2>
-	<p>Namely</p>
-	<p>New York, NY</p>
-	<p>Sales Development Representative</p>
-	<p>December 2014 - December 2015</p>
-	<ul>
-		<li>Leveraged subject matter expertise in the human resources tech sector when consulting with prospects</li>
-		<li>Streamlined the initial contact to cash process by utilizing niche CRM sales tools, developing a strong pipeline of qualified leads</li>
-		<li>Collaborated cross functionally to research and implement creative business development strategies for the Central and Midwest regions</li>
-		<li>Assisted in onboarding of incoming SDRs via objection handling, sales cadence, prospecting and product training.</li>
-	</ul>
-	<p>SmartSign.com</p>
-	<p>Brooklyn, NY</p>
-	<p>Senior Sales Specialist</p>
-	<p>February 2012 - November 2014</p>
-	<ul>
-		<li>Engaged leads to gather requirements, provide product marketing, and generate price quotes</li>
-		<li>Facilitated the e-commerce experience for the customer base, including corporations, small businesses, municipalities, and resellers</li>
-		<li>Ensured operational excellence by streamlining the communication between internal teams and external vendors, and maintaining customer accounts within the CRM software.</li>
-	</ul>
-	<p>Doyaga & Schaefer</p>
-	<p>Brooklyn, NY</p>
-	<p>Client Relationship Associate</p>
-	<p>January 2008 - January 2011</p>
-	<ul>
-		<li>Educated potential clients on the benefits of a successful Bankruptcy via face-to-face meetings and cold calls</li>
-		<li>Increased the company’s retention rate year over year by venturing into and bringing in new customers from the previously untapped Spanish speaking market</li>
-	</ul>
-</section>
-<section>
-	<h2>Skills</h2>
-	<p>Software</p>
-	<ul>
-		<li>SalesForce.com</li>
-		<li>Act! CRM</li>
-		<li>Microsoft Office Suite</li>
-	</ul>
-	<p>Communication</p>
-	<ul>
-		<li>Native Fluency in Spanish</li>
-	</ul>
-</section>
-</main>
-<address>
-	You can contact the author at <a href="mailtoGerson.Cordero@gmail.com" target="_blank">Gerson.Cordero@gmail.com</a>
-</address>
+
+<!-- Text below image -->
+
+<p class="summary"> Sales veteran with 10 years of experience. Successful tenures in 4 different industries. I am currently transitioning career paths from Inside Sales/Territory Development into Web Development.</p>
+
+<!-- Top section -->
+
+	<div class="row">
+
+	<div class="col-6">
+		<h2>Education</h2>
+	</div>
+
+	<div class="col-6">
+		<h4>Borough of Manhattan Community College, New York, NY</h4>
+			<ul>
+				<li>Associates Degree in Business Administration, January 2012</li>
+			</ul>
+		<h4>City College of New York, New York, NY</h4>
+			<ul>
+				<li>Bachelors Degree in Business Administraion, May 2014</li>
+			</ul>
+	</div>
+
+<!-- Middle section -->
+
+	<div class="col-6">
+		<h2>Professional Experiences</h2>
+	</div>
+
+	<div class="col-6">
+		<h4>Namely</h4>
+		<h5>New York, NY</h5>
+		<h5>Sales Development Representative</h5>
+		<p>December 2014 - December 2015</p>
+			<ul>
+				<li>Leveraged subject matter expertise in the human resources tech sector when consulting with prospects</li>
+				<li>Streamlined the initial contact to cash process by utilizing niche CRM sales tools, developing a strong pipeline of qualified leads</li>
+				<li>Collaborated cross functionally to research and implement creative business development strategies for the Central and Midwest regions</li>
+				<li>Assisted in onboarding of incoming SDRs via objection handling, sales cadence, prospecting and product training.</li>
+			</ul>
+		<h4>SmartSign.com</h4>
+		<h5>Brooklyn, NY</h5>
+		<h5>Senior Sales Specialist</h5>
+		<p>February 2012 - November 2014</p>
+			<ul>
+				<li>Engaged leads to gather requirements, provide product marketing, and generate price quotes</li>
+				<li>Facilitated the e-commerce experience for the customer base, including corporations, small businesses, municipalities, and resellers</li>
+				<li>Ensured operational excellence by streamlining the communication between internal teams and external vendors, and maintaining customer accounts within the CRM software.</li>
+			</ul>
+		<h4>Doyaga & Schaefer</h4>
+		<h5>Brooklyn, NY</h5>
+		<h5>Client Relationship Associate</h5>
+		<p>January 2008 - January 2011</p>
+			<ul>
+				<li>Educated potential clients on the benefits of a successful Bankruptcy via face-to-face meetings and cold calls</li>
+				<li>Increased the company’s retention rate year over year by venturing into and bringing in new customers from the previously untapped Spanish speaking market</li>
+			</ul>
+	</div>
+
+<!-- Bottom Section -->
+
+	<div class="col-6">
+		<h2>Skills</h2>
+	</div>
+
+	<div class="col-6">
+		<h4>Software</h4>
+			<ul>
+				<li>SalesForce.com</li>
+				<li>Act! CRM</li>
+				<li>Microsoft Office Suite</li>
+			</ul>
+		<p>Communication</p>
+			<ul>
+				<li>Native Fluency in Spanish</li>
+			</ul>
+	</div>
+	</div>
+
+<!-- Contact info -->
+
+	<div class="contact">
+		<p>Email: <a href="mailtoGerson.Cordero@gmail.com" class="email" target="_blank">Gerson.Cordero@gmail.com</a>
+		<p>Contact Number: (347) 330-3403
+		</p>
+		</p>
+	</div>
 </body>
 </html>
